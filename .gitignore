@@ -1,0 +1,10 @@
+node_modules
+dist
+.angular
+*.log
+.env
+apps/api/dist
+apps/web/dist
+e2e/test-results
+e2e/playwright-report
+UNI_Scenario_227_MP_Heuristics_Result (data).xlsx

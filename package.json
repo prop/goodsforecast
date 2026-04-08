@@ -1,0 +1,10 @@
+{
+  "name": "goodsforecast",
+  "private": true,
+  "workspaces": ["apps/api", "apps/web", "e2e"],
+  "scripts": {
+    "up": "docker compose up --build",
+    "down": "docker compose down -v",
+    "test:e2e": "yarn --cwd e2e test"
+  }
+}
